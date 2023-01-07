@@ -4,6 +4,7 @@
 }
 
 /* Header and banner section */
+
 .header {
     background-image: url(../images/banner/banner2.png);
     width: 1600px;
@@ -47,7 +48,6 @@
 }
 
 /* failures of last year section */
-.first-section {}
 
 .failures {
     margin: 130px 322px 130px 206px;
@@ -91,7 +91,6 @@
 }
 
 /* section for my future plan */
-.plan-section {}
 
 .plan-title {
     width: 288px;
@@ -130,10 +129,33 @@
     font-size: 25px;
     color: #737272;
     text-align: right;
+    margin-bottom: 130px;
 
 }
 
+/* plans information */
+
+.table {
+    margin: 130px 230px 0;
+    border-collapse: collapse;
+}
+
+th {
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.t-data {
+    border: 2px solid black;
+}
+
+td {
+    font-weight: 400;
+    font-size: 20px;
+}
+
 /* Motivational section */
+
 .motivation {
     margin: 130px 230px;
     background: linear-gradient(90deg, #F15B22 0%, rgba(169, 138, 126, 0) 100%), url(../images/watch.png);
@@ -202,6 +224,7 @@
 }
 
 .user-information {
+    color: #FFFFFF;
     font-weight: 400;
     font-size: 18px;
     width: 325px;
