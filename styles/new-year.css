@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Header and banner section */
+.header {
+    background-image: url(../images/banner/banner2.png);
+    width: 1600px;
+    height: 800px;
+    text-align: right;
+
+}
+
+.header-title {
+    padding: 216px 230px 24px 845px;
+    width: 525px;
+    height: 228px;
+    left: 845px;
+    top: 216px;
+    font-weight: 700;
+    font-size: 65px;
+}
+
+.header-description {
+    padding: 0 230px 32px 876px;
+    width: 490px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    left: 876px;
+    top: 468px;
+    color: #444343;
+}
+
+.primary-btn {
+    margin: 0 230px 0 1210px;
+    padding: 20px 25px;
+    width: 160px;
+    height: 64px;
+    left: 1210px;
+    top: 578px;
+    background: #F15B22;
+    border-radius: 5px;
+    border: 0;
+    color: #FFFFFF;
+
+}
+/* failures of last year section */
+.first-section{
+    
+    
+
+}
+.failures{
+    margin: 130px 322px 0 206px;
+    display: flex;
+
+}
