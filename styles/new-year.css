@@ -30,6 +30,8 @@
 }
 
 .primary-btn {
+    font-weight: 600;
+    font-size: 20px;
     margin: 0 230px 0 1210px;
     padding: 20px 25px;
     width: 160px;
@@ -73,6 +75,7 @@
 }
 
 .f-description {
+    color: #444343;
     width: 416px;
     height: 104px;
     font-weight: 400;
@@ -80,6 +83,7 @@
 }
 
 .f-points {
+    color: #444343;
     width: 315px;
     height: 26px;
     font-weight: 400;
@@ -148,14 +152,17 @@
 }
 
 .new-btn {
+    font-weight: 600;
+    font-size: 20px;
     margin: 0 916px 59px 64px;
     padding: 20px 36px;
     color: #F15B22;
     border: 0;
+    border-radius: 8px;
 }
 
 .new-btn:hover {
-    background-color: lightskyblue;
+    background-color: navy;
 }
 
 /* contact and user information  */
@@ -169,7 +176,8 @@
     text-align: left;
 
 }
-.subscription{
+
+.subscription {
     padding: 130px 230px 243px 0;
 }
 
@@ -185,19 +193,35 @@
     font-size: 45px;
     margin-bottom: 16px;
 }
-.contact-information{
+
+.contact-information {
     width: 485px;
-height: 78px;font-weight: 400;
-font-size: 16px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
 }
-.user-information{
+
+.user-information {
+    font-weight: 400;
+    font-size: 18px;
     width: 325px;
-height: 64px;
+    height: 64px;
+    background-color: black;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
 }
-.subscribe-btn{
+
+.subscribe-btn {
+    font-weight: 600;
+    font-size: 20px;
     width: 170.11px;
     height: 64px;
     margin-top: 16px;
     padding: 20px 36px;
     color: #F15B22;
+    border-radius: 8px;
+}
+
+.subscribe-btn:hover {
+    background-color: navy;
 }
