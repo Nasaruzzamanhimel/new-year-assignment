@@ -2,6 +2,7 @@
     margin: 0;
     font-family: sans-serif;
 }
+
 /* Header and banner section */
 .header {
     background-image: url(../images/banner/banner2.png);
@@ -15,8 +16,6 @@
     padding: 216px 230px 24px 845px;
     width: 525px;
     height: 228px;
-    left: 845px;
-    top: 216px;
     font-weight: 700;
     font-size: 65px;
 }
@@ -27,8 +26,6 @@
     height: 78px;
     font-weight: 400;
     font-size: 16px;
-    left: 876px;
-    top: 468px;
     color: #444343;
 }
 
@@ -37,30 +34,174 @@
     padding: 20px 25px;
     width: 160px;
     height: 64px;
-    left: 1210px;
-    top: 578px;
     background: #F15B22;
     border-radius: 5px;
     border: 0;
     color: #FFFFFF;
-
 }
+
+.primary-btn:hover {
+    background-color: navy;
+}
+
 /* failures of last year section */
-.first-section{
-    
-    
+.first-section {}
 
-}
-.failures{
-    margin: 130px 322px 0 206px;
+.failures {
+    margin: 130px 322px 130px 206px;
     display: flex;
     align-items: center;
 
 }
-.my-img{
+
+.failure {
+    margin: 16px;
+}
+
+.my-img {
     width: 569px;
-height: 723.3px;
-left: 206px;
-top: 939px;
-margin-right: 87px;
+    height: 723.3px;
+    margin-right: 87px;
+}
+
+.f-title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+
+.f-description {
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.f-points {
+    width: 315px;
+    height: 26px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* section for my future plan */
+.plan-section {}
+
+.plan-title {
+    width: 288px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 710px 50px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 80px;
+    text-align: center;
+    margin: 0 230px;
+}
+
+.plans-img {
+    width: 92.96px;
+    height: 92.96px;
+    margin-bottom: 30px;
+}
+
+.plans-names {
+    width: 270px;
+    height: 35px;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+.plans-details {
+    width: 177px;
+    height: 29px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+    text-align: right;
+
+}
+
+/* Motivational section */
+.motivation {
+    margin: 130px 230px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(169, 138, 126, 0) 100%), url(../images/watch.png);
+    width: 1140px;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.mtvtnl-speach {
+    padding: 59px 617px 24px 64px;
+    width: 459px;
+    height: 94px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.new-btn {
+    margin: 0 916px 59px 64px;
+    padding: 20px 36px;
+    color: #F15B22;
+    border: 0;
+}
+
+.new-btn:hover {
+    background-color: lightskyblue;
+}
+
+/* contact and user information  */
+
+.contacts {
+    display: flex;
+    color: #FFFFFF;
+    background-color: black;
+    width: 1600px;
+    height: 577px;
+    text-align: left;
+
+}
+.subscription{
+    padding: 130px 230px 243px 0;
+}
+
+.contact {
+    padding: 130px 330px 230px;
+
+}
+
+.contact-title {
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+.contact-information{
+    width: 485px;
+height: 78px;font-weight: 400;
+font-size: 16px;
+}
+.user-information{
+    width: 325px;
+height: 64px;
+}
+.subscribe-btn{
+    width: 170.11px;
+    height: 64px;
+    margin-top: 16px;
+    padding: 20px 36px;
+    color: #F15B22;
+}
+.web-url{
+    width: 47px;
+height: 46px;
 }
