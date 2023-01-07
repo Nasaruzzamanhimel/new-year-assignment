@@ -54,5 +54,13 @@
 .failures{
     margin: 130px 322px 0 206px;
     display: flex;
+    align-items: center;
 
+}
+.my-img{
+    width: 569px;
+height: 723.3px;
+left: 206px;
+top: 939px;
+margin-right: 87px;
 }
